@@ -3,8 +3,6 @@ import React, { useEffect, useState } from 'react';
 
 const UserForm = ({getUsers, userSelected, setUserSelected}) => {
 
-    console.log(userSelected);
-
     const [firstName, setFirstName] = useState("")
     const [lastName, setLastName] = useState("")
     const [email, setEmail] = useState("")
